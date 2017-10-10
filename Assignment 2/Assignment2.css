@@ -1,0 +1,17 @@
+body{
+	background-color: grey;
+}
+.christmas{
+	font:arial;
+	font-style: bold;
+	font-size: 28pt;
+	color: red;
+	background-color: green;
+}
+.easter{
+	font:times;
+	font-style: italic;
+	font-size: 28pt;
+	color: pink;
+	background-color: purple;
+}

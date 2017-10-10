@@ -1,0 +1,45 @@
+body{
+	background-color: tan;
+}
+div{
+	font-size: 20pt;
+}
+table{
+	width: 400px;
+}
+.majors li{
+	font-family: arial;	
+}
+.majors li:first-child{
+	color: red;
+}
+.majors li:last-child{
+	color: blue;
+}
+.majors li:nth-child(4){
+	color: green;
+}
+.majors li:not(:nth-child(5)){
+	font-style: italic;
+}
+.buttons li{
+	list-style: none;
+}
+.courses{
+	background-color: green;
+}
+.enclose{
+	width: 500px;
+	border: 3px solid red;
+}
+.header{
+	background-color: darkblue;
+	color: white;
+}
+.altrow{
+	background-color: grey;
+}
+.resize{
+	width: 80%;
+}
+

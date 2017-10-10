@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+
+    	<meta charset="utf-8">
+    	<title>Assignment 6</title>
+		<link href="Assignment6.css" rel="stylesheet">	
+		<script src="jquery-1.12.1.min.js"></script>
+    	<script src="Assignment6.js"></script>
+	
+	</head>
+	<body>
+ 		<img src="logo.jpg">
+ 		<form id="customerForm" action="FormProcessor.html" method="get">
+ 			<h1>Create an Account</h1><br><br>
+ 			<span class="errTxt" id="errTotal"></span>
+ 			<h2>Your Preferences</h2>
+ 			<label for="OS">Most Frequently Used Operating System:</label>
+ 			<select id="OS" name="OS">
+ 				<option value="Operating System">Operating System</option>
+ 				<option value="Windows 8">Windows 8</option>
+ 				<option value="Windows 7">Windows 7</option>
+ 				<option value="Android">Android</option>
+ 				<option value="Mac OS">Mac OS</option>
+ 				<option value="Other">Other</option>
+ 			</select>
+ 			<label for="software">Most Frequently Used Software:</label>
+ 			<select id="software" name="software">
+ 				<option value="Software">Software</option>
+ 				<option value="Games">Games</option>
+ 				<option value="Business Applications">Business Applications</option>
+ 				<option value="Programming Applications">Programming Applications</option>
+ 				<option value="Social Networking">Social Networking</option>
+ 				<option value="Other">Other</option>
+ 			</select>
+ 			<h2>Customer Information</h2>
+ 			<p>* Required Information</p>
+ 			<label for="firstName">First Name:*</label>
+ 			<input type="text" name="firstName" id="firstName">
+ 			<span class="errTxt" id="errFirstName"></span><br><br>
+
+ 			<label for="lastName">Last Name:*</label>
+ 			<input type="text" name="lastName" id="lastName">
+ 			<span class="errTxt" id="errLastName"></span><br><br>
+ 	
+ 			<label for="addr1">Address 1:*</label>
+ 			<input type="text" name="addr1" id="addr1">
+ 			<span class="errTxt" id="errAddr1"></span><br><br>
+
+ 			<label for="addr2">Address 2:</label>
+ 			<input type="text" name="addr2" id="addr2">
+ 			<span class="errTxt" id="errAddr2"></span><br><br>
+
+ 			<label for="city">City:*</label>
+ 			<input type="text" name="city" id="city">
+ 			<span class="errTxt" id="errCity"></span><br><br>
+ 	
+ 			<label for="state">State:*</label>
+ 			<input type="text" name="state" id="state">
+ 			<span class="errTxt" id="errState"></span><br><br>
+
+ 			<label for="zip">Zip Code:*</label>
+ 			<input type="text" name="zip" id="zip">
+ 			<span class="errTxt" id="errZip"></span><br><br>
+
+ 			<label for="phone">Phone:</label>
+ 			<input type="text" name="phone" id="phone">
+ 			<span class="errTxt" id="errPhone"></span><br><br>
+ 	
+ 			<label for="email">Email Address:*</label>
+ 			<input type="text" name="email" id="email">
+ 			<span class="errTxt" id="errEmail"></span><br><br>
+
+ 			<fieldset id="cardType">
+				<legend>Payment Method:*</legend>  				
+   					<input type="radio" name="cardType" value="0" checked>
+    				<label for="cardType">None</label>
+
+    				<input type="radio" name="cardType" value="1">
+    				<label for="cardType">Visa</label>
+  				 	
+    				<input type="radio" name="cardType" value="2">
+    				<label for="cardType">Master Card</label>
+    				
+    				<input type="radio" name="cardType" value="3">
+    				<label for="cardType">American Express</label>  		 	
+			</fieldset><span class="errTxt" id="errType"></span><br><br>
+
+ 			<label for="cCard">Credit Card Number:</label>
+ 			<input type="text" name="cCard" id="cCard" size="55">
+ 			<span class="errTxt" id="errCard"></span><br><br>
+ 		
+ 			<label for="expMonth">Expiration Month:</label>
+ 			<select id="expMonth" name="expMonth">
+ 				<option value="month">Month</option>
+ 				<option value="01">01</option>
+ 				<option value="02">02</option>
+ 				<option value="03">03</option>
+ 				<option value="04">04</option>
+ 				<option value="05">05</option>
+ 				<option value="06">06</option>
+ 				<option value="07">07</option>
+ 				<option value="08">08</option>
+ 				<option value="09">09</option>
+ 				<option value="10">10</option>
+ 				<option value="11">11</option>
+ 				<option value="12">12</option>
+ 			</select>
+ 			<label for="expYear">Expiration Year:</label>
+ 			<select id="expYear" name="expYear">
+ 				<option value="year">Year</option>
+ 				<option value="2015">2015</option>
+ 				<option value="2016">2016</option>
+ 				<option value="2017">2017</option>
+ 				<option value="2018">2018</option>
+ 				<option value="2019">2019</option>
+ 				<option value="2020">2020</option>
+ 			</select>
+ 			<span class="errTxt" id="errExpiration"></span><br><br>
+ 			<input type="submit" value="Submit" id="submit"> 			
+ 		</form>
+	</body>
+</html>
+	

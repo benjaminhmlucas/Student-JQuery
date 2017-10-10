@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Assignment 2</title>
+	<link href="assignment2.css" rel="stylesheet">
+	<script src="jquery-1.12.1.min.js"></script>	
+	<script src="assignment2.js"></script>
+</head>
+<body>
+	<div id="letters">
+		<script>
+			for(var count = 0;count<26;count++)
+			{
+				document.write(alphabet[count] + " ");
+			}
+		</script>
+	</div> 
+ 	<br><br>
+ 	<div id="calculation">
+ 		<script>
+ 		var height = +prompt("Please enter height:");
+		var width = +prompt("Please enter width:");  
+ 		document.write("The area of the rectangle is: " + area(height, width) + ".");
+ 		</script>
+ 	</div>
+</body>
+</html>
+	

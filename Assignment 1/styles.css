@@ -1,0 +1,12 @@
+body{
+	background-color: wheat;
+}
+.formal{
+	font: bold 24pt Arial;
+	color: grey;
+}
+
+.list{
+	font: italic 20pt Times;
+	color: blue;
+}

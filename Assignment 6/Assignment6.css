@@ -1,0 +1,16 @@
+body{
+	background: linear-gradient(white, green);
+	font-family: Arial;
+}
+h1{
+	padding: 10px;
+	padding-right: 75px;
+	display: inline-block;
+	border: 5px solid black;
+}
+fieldset{
+	display: inline-block;
+}
+.errTxt{
+	color: red;
+}
