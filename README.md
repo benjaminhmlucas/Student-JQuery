@@ -1,5 +1,5 @@
 # Student-JQuery
-Live sites: @benjaminhmlucas.com/JQuery/ <br>
+Live sites: http://benjaminhmlucas.com/JQuery/ <br>
 JQuery script written for class<br>
 1-Movie list - Import/use Jquery<br>
 2-Rectangle calculator - using Javascript with JQuery<br>
